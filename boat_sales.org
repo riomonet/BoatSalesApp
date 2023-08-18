@@ -1,0 +1,67 @@
+Problem:
+
+- Need to sell boats. Any boat that is on land needs to be sold.
+Need to sell salvage parts. Need to raise money for the Marina.
+Marina doesn't make any money. Boats for sale take up space.
+Boats sales can increase revenue for the Marina in a big way.
+
+have to take pictures of boats, have to take videos of boats,
+have do tours of the boats.
+have to list prices and descriptions.
+
+Year, make, model price, style
+
+
+where are we:
+what do we know:
+
+- we have boats for sale
+
+- we know some details about the boats, maybe not all the details
+
+- we know a few sights where we can list the boats.
+
+- we know we are gonna use postgresql
+
+questions:
+
+ - what is the layout of individual listings
+ - what is the layout of all listings page.
+ - do images have to be a certain side
+ - when you click a listing how is a slide show presented
+ - what is the relationship beteween the front and back end.
+   ie: when
+
+ - what tables are there in the database?
+ - what queries are there in the database?
+ - when someon clicks a listing
+	- what gets queried?
+	- does the front end talk to the back end using json?
+
+
+ - what data are we returing from the database?
+        Make, model, year, price, type, description, array of images(or image url's)
+	with one chosen as the default
+	
+  Where are we going ?
+
+ What do we need to know ?
+
+	Research required *******
+	Before I make any decisions I have to understand this.
+ 	I don't understand how images are served. what is stored in the datbase?
+	a file ? or a path to a file? I assume images are stored in a folder on the server?
+
+	what is res.static? what does that have to do with anythinG?
+
+	options:
+	 - send the image file its res.sendFile()
+	 - create url or data url for each image. then just serve the html
+
+	   
+
+Potenial Libraries:
+	Multer - file upload middleware
+
+Glossary:
+
