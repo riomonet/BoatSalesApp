@@ -1,4 +1,4 @@
-Problem:
+* Problem blurb 1:
 
 - Need to sell boats. Any boat that is on land needs to be sold.
 Need to sell salvage parts. Need to raise money for the Marina.
@@ -58,10 +58,32 @@ questions:
 	 - send the image file its res.sendFile()
 	 - create url or data url for each image. then just serve the html
 
-	   
-
 Potenial Libraries:
 	Multer - file upload middleware
 
 Glossary:
+* Problem blurb 2:
+** server Express
+
+*** Adminstrator Dashboard
+**** Image upload
+***** Authorized User can upload images
+****** need scheme for authorizing a user. Will use JWT. 
+***** Authorized user must select default image for Image grid
+***** Authorized user must write a commentary about the boat
+***** do images have to  be automatically resized
+****** What is the mechansim for sizing images for websites?
+****** how many sizes do we need? 
+******* thumbnails
+******* large for size for slide show
+******* do we need different sizes for different size browsers ?/ mobile?
+***** What will the upload dashboard look like?
+***** what get stored in the database?
+*** Items for sale viewing:
+***** goto site and see a bunch of boats (with short text listing) for sale in a grid.
+default image chosen by admin is displayed here.
+***** click on image and you get a image carousel with a descriptiong of the boat.
+button to go to all.
+
+** are templates a front end feature ?
 
